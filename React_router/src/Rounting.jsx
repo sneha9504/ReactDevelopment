@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/contact';
 import Mission from './components/Mission';
+import DyanamicRouting from './components/DyanamicRouting';
 
 const Routing = () => {
   return (
@@ -14,7 +15,7 @@ const Routing = () => {
             <Route path="/about/mission" element={<Mission/>} />
         </Route>
         <Route path="/contact" element={<Contact />} />
-        
+        <Route path="/:id" element={<DyanamicRouting />} />
       </Routes>
    
   );

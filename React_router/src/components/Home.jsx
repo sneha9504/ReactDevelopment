@@ -1,4 +1,5 @@
 import React from 'react'
+import DyanamicRouting from './DyanamicRouting'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <button >
         Learn More
       </button>
+        
     </div>
   )
 }
